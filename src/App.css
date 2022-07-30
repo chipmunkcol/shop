@@ -1,38 +1,68 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+.img {
+    background-image: url('https://www.10wallpaper.com/wallpaper/1366x768/1211/Forest_Elf-cute_squirrel_HD_Wallpapers_picture_01_1366x768.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.img_00 {
+    background-image: url('https://post-phinf.pstatic.net/MjAxNzA5MDFfMyAg/MDAxNTA0MjU0NDA0ODI0.9tOtSYDFKFz_WyjoHazQTwQsurEzOxl1x6LzFpRmAtIg.XI1goTOSTajyX7uPfEpvhnf0x6BzBcIoDk0l37xxb0wg.JPEG/image_4647222041504254238327.jpg?type=w1200');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 80%;
+}
+.img_01 {
+    background-image: url('https://health.chosun.com/site/data/img_dir/2021/05/11/2021051101497_0.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 80%;
+}
+.img_02 {
+    background-image: url('http://www.canceranswer.co.kr/news/photo/202106/2640_4199_3651.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 80%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img_d_00 {
+    background-image: url('https://post-phinf.pstatic.net/MjAxNzA5MDFfMyAg/MDAxNTA0MjU0NDA0ODI0.9tOtSYDFKFz_WyjoHazQTwQsurEzOxl1x6LzFpRmAtIg.XI1goTOSTajyX7uPfEpvhnf0x6BzBcIoDk0l37xxb0wg.JPEG/image_4647222041504254238327.jpg?type=w1200');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 80%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img_d_01 {
+    background-image: url('https://health.chosun.com/site/data/img_dir/2021/05/11/2021051101497_0.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 80%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img_d_02 {
+    background-image: url('http://www.canceranswer.co.kr/news/photo/202106/2640_4199_3651.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+.input_detail {
+    margin: 0 0 10px 0;
+    border: 4px solid red;
+    width: 200px;
+    padding: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start {
+    opacity: 0;
+}
+.end {
+    opacity: 1;
+    transition: opacity 1s;
 }
